@@ -792,7 +792,7 @@ input[type=checkbox].w-check:disabled+.w-validate, input[type=radio].w-radio:dis
     .col-md-11 { width: 91.66666667% }
     .col-md-12 { width: 100% }
  }
- @media only screen and (min-width: 768px) {
+ @media only screen and (min-width: 769px) {
     .col-l-1 { width: 8.33333333% }
     .col-l-2 { width: 16.66666667% }
     .col-l-3 { width: 25% }
