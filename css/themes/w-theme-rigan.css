@@ -23,9 +23,12 @@ footer {
 }
 .w-example {margin-top:16px}
 .w-main {
-    height:100vh;
-    overflow-y: scroll;
+    min-height:70vh;
     padding: 20px;
+}
+.aside {
+    min-height: 20vh;
+    padding: 10px;
 }
 .w-main iframe {
     width:100%;
@@ -57,6 +60,9 @@ footer {
 header, footer {
     padding: 4px !important;
 }
+.w-bar-block .w-bar-item {
+    margin-bottom: 5px;
+}
 .w-bar-item.h1 {
     font-size: 20px;
 }
@@ -86,17 +92,16 @@ header, footer {
     .w-opennav {display:inline-block !important;}
     #main {margin-left:0% !important;}
 }
-@media only screen and (min-width:768px) {
-    .w-sidenav {z-index:0; display:block!important;}
+@media only screen and (min-width:769px) {
+    .w-sidenav, .aside {z-index:0; display:block!important;}
     .w-topnav {z-index:1}
-    #w-opennav {display:none;}
+    #w-opennav {display:none}
     #w-closenav {display:none;}
     .heading, .w-topnav {
         height: 15vh !important;
     }
-    .w-sidenav, .w-main {
-        height: 85vh !important;
-        overflow-y: scroll;
+    .w-sidenav, .w-main, .aside {
+        min-height: 85vh !important;
     }
 }
 .w-theme-l5 {color:#000 !important;background-color:#f3f9e6 !important}
