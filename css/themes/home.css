@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+    .w-topnav {
+        display: none !important;
+    }
+    }
+    
+    
+    @media only screen and (max-width: 768px) {
+        .w-topnav {
+            display: none !important;
+        }
+    }
+
+
+    @media only screen and (min-width:768px) {
+        
+    }
+
+    .w-bar-block .w-bar-item {
+        margin-bottom: 20px;
+    }
