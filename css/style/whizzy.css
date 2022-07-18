@@ -233,10 +233,6 @@ img {
 a {
     color:inherit
 }
-.w-image {
-    max-width:100%;
-    height:auto;
-}
 
 /* for tables */
 .w-table, .w-table-all {
@@ -644,7 +640,8 @@ ul.w-ul li:last-child {
     position:absolute;
     min-width:160px;
     margin:0;
-    padding:0
+    padding:0;
+    z-index: 1;
 }
 .w-dropdown-content a{
     padding:6px 16px;
