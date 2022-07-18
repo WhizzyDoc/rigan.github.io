@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
-<title>Introduction to HTML</title>
+<title>HTML Try it Yourself</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Rigan Tech">
 <meta name="description" content="A website to learn all about programming">
 <meta name="keywords" content="coding, programming, html, css, learn html, learn css">
-<meta charset="UTF-8">
-<meta name="title" content="Rigan Programming Hub">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="apple-touch-icon" href="../stylesheet/logo.jpg">
 <link rel="shortcut icon" href="../stylesheet/logo.jpg">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
 <link rel="stylesheet" href="../stylesheet/code.css">
@@ -39,7 +36,7 @@
 <div class="w-sidenav w-animate-left w-bar-block w-center w-theme-d1 col-l-3" id="w-sidenav">
   <div class="w-closenav h1 w-theme-d1 w-text-black w-hover-text-red" id="w-closenav">&times;</div>
   <div class="w-bar-item w-btn w-theme-l1 w-margin-bottom">HTML4</div>
-  <div class="w-bar-item w-btn w-theme-dark w-hover-sand w-large w-left-align"><a href="html-1.html">Introduction to HTML</a></div>
+  <div class="w-bar-item w-btn w-theme-d1 w-hover-sand w-large w-left-align"><a href="html-1.html">Introduction to HTML</a></div>
   <div class="w-bar-item w-btn w-theme-d1 w-hover-sand w-large w-left-align"><a href="#">HTML Tags & Elements</a></div>
   <div class="w-bar-item w-btn w-theme-d1 w-hover-sand w-large w-left-align"><a href="#">HTML Headings & Paragraphs</a></div>
   <div class="w-bar-item w-btn w-theme-d1 w-hover-sand w-large w-left-align"><a href="#">HTML Text Formatting</a></div>
@@ -78,45 +75,24 @@
 </div>
 <div id="main" class="w-animate-right w-main w-theme-l4 col-sm-12 col-md-12 col-l-9">
    
-  <div style="width:100%; display:flex; justify-content:space-around; padding:20px;">
-    <a href="../../pages/tutorial.html"><button class="prev">&lt;&lt;&lt; Home</button></a>
-    <a href="#"><button class="next">Next &gt;&gt;&gt;</button></a>
-    </div>
-    
-        <h3>Example:</h3>
-        <div class="html">
-            <code>
-            &nbsp;&nbsp;<span class="tag">&lt;h1&gt;</span>This is a heading<span class="tag">&lt;/h1&gt;</span><br><br>
-            &nbsp;&nbsp;<span class="tag">&lt;p&gt;</span>This is a paragraph<span class="tag">&lt;/p&gt;</span>
-            </code>
-        </div>
+        <h2>Try it Yourself:</h2>
+        <h4>HTML</h4>
+        <textarea id="html"></textarea>
         <br>
+        <button id="run" onclick="runCode()">Run &gt;&gt;&gt;</button>
         
-        <h3>Output:</h3>
-        <div class="output">
-            <h1>This is a heading</h1>
-            <p>This is a paragraph</p>
-        </div>
-        <br><br>
-        
-        <a href="html-try-it-yourself.html" target="_blank"><button>Try it Yourself&gt;&gt;&gt;</button></a>
-        
-        <div style="width:100%; display:flex; justify-content:space-around; padding:20px;">
-          <a href="../../pages/tutorial.html"><button class="prev">&lt;&lt;&lt; Home</button></a>
-          <a href="#"><button class="next">Next &gt;&gt;&gt;</button></a>
-          </div>
+        <h3>Result:</h3>
+        <div class="output2" id="output"></div>
 
-
-        <footer class="w-theme-l2 col-sm-12 col-md-12 col-l-12">
-  
-        </footer>
-  </div>
+</div>
 
 
    
 </div>
 
-
+<footer class="w-theme-l2 col-sm-12 col-md-12 col-l-12">
+  
+</footer>
 
   <script src="../../js/rigan.js"></script>
   <script src="../stylesheet/code.js"></script>
